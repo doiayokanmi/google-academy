@@ -1,0 +1,263 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Condensed&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    font-size: 14px;
+    padding: 0;
+    margin: 0;
+}
+
+h1 {
+    font-weight: normal;
+    padding: 1em;
+    color: black;
+    display: block;
+}
+
+img {
+    padding: 0;
+    margin: 0;
+    float: left;
+}
+
+span {
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    padding: 10px;
+    background: #f0f0f0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: none;
+    box-shadow: 0px 0px 0px 2px grey;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 14px;
+    border: 0;
+    background-color: #4285f4;
+    color: #f0f0f0;
+    margin-right: 10px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: blue;
+    cursor: pointer;
+}
+
+.reddiv {
+    padding: 12px 25px;
+    margin-top: 2px;
+    font-weight: bold;
+    background-color: #ff7700;
+}
+
+.reddiv p {
+    line-height: 1.25em;
+    word-spacing: 2px;
+    color: #fff;
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+}
+
+p a{
+    color: #fff;
+    text-decoration: underline;
+}
+
+.doubleDiv {
+    height: 65vh;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first, .second {
+    width: 50%;
+    height: 100%;
+}
+
+.first {
+    padding: 60px 90px;
+    position: relative;
+}
+
+.fir {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #4285f4;
+    z-index: 1;
+    border-radius: 100%;
+    left: 605px;
+    bottom: 10px;
+    display: flex;
+    font-size: larger;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.second {
+    background-image: url(image/hero_academy.jpg);
+    background-size: cover;
+}
+
+.doubleDiv h1 {
+    font-size: 2.75em;
+    font-weight: normal;
+    /* margin: 0 0 10px 0; */
+}
+
+.doubleDiv p {
+    line-height: 1.5em;
+    word-spacing: 2px;
+    font-size: 1.25em;
+    padding: 0 40px;
+    margin: 0;
+}
+
+.bigBlue {
+    background-color: #4285f4;
+    padding: 10px 35px;
+}
+
+.bigBlue h1 {
+    color: #fff;
+    font-weight: normal;
+}
+
+.inBlue {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    /* justify-content: space-evenly; */
+
+}
+.con {
+    width: 290px;
+    height: 80vh;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px 10px;
+    display: block;
+
+}
+
+p {
+     padding: 10px;
+     line-height: 1.5em;
+     font-size: 1.25em;
+}
+
+section {
+    padding: 10px 50px 0 50px;
+    background-color: #f0f0f0ce;
+}
+
+.ins {
+    padding: 16px;
+    font-size: 2em;
+}
+
+.instructorCon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.instructor {
+    width: 90vw;
+    height: 200px;
+    display: flex;
+    /* gap: 10px; */
+    box-shadow: 0 0 10px 0 grey;
+    margin-bottom: 40px;
+    background-color: #f0f0f0;
+}
+
+.instructor:nth-last-child() {
+    margin: 0;
+}
+
+.instructor p {
+    padding: 10px 20px;
+    line-height: 1.5em;
+    font-size: 1.125em;
+}
+
+.nameCon {
+    border-bottom: 1px solid grey;
+    padding: 0 20px;
+}
+
+.con1 {
+    height: 50px;
+    padding: 15px;
+}
+
+.downflex {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.con h2 {
+    margin: 10px;
+}
+
+.con {
+    padding: 10px;
+}
+
+.downcon {
+    width: 280px;
+    height: 150px;
+    box-shadow: 0 0 5px 0 grey;
+    margin-bottom: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.indowncon {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.indowncon p {
+    text-align: center;
+    line-height: 1em;
+}
+
+footer {
+    height: 500px;
+    background-color: #f0f0f0;
+    /* padding: 20px; */
+}
+
+

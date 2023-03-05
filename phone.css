@@ -1,0 +1,46 @@
+@media screen and (max-width: 475px) {
+    .fir {
+        display: none;
+    }
+
+    .button {
+        display: none;
+    }
+
+    .doubleDiv {
+        height: 55vh;
+    }
+    .second {
+        display: none;
+    }
+
+    .first {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 5px;
+    }
+
+    .inBlue {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .con {
+        height: 65vh;
+    }
+
+    .instructor {
+        height: 80vh;
+    }
+
+    .instructor img {
+        display: none;
+    }
+
+    .downflex {
+        justify-content: center;
+        align-items: center;
+    }
+}
